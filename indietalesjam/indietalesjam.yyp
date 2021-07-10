@@ -13,7 +13,6 @@
     {"id":{"name":"spr_enemy_idle","path":"sprites/spr_enemy_idle/spr_enemy_idle.yy",},"order":5,},
     {"id":{"name":"spr_tile_room","path":"sprites/spr_tile_room/spr_tile_room.yy",},"order":1,},
     {"id":{"name":"spr_resource_basic","path":"sprites/spr_resource_basic/spr_resource_basic.yy",},"order":4,},
-    {"id":{"name":"ts_room","path":"tilesets/ts_room/ts_room.yy",},"order":0,},
     {"id":{"name":"spr_pc_idle","path":"sprites/spr_pc_idle/spr_pc_idle.yy",},"order":2,},
     {"id":{"name":"spr_tile_void","path":"sprites/spr_tile_void/spr_tile_void.yy",},"order":0,},
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},"order":1,},

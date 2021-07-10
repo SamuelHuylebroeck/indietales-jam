@@ -35,7 +35,7 @@
     "spriteId": {"name":"spr_spike_trap","path":"sprites/spr_spike_trap/spr_spike_trap.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
