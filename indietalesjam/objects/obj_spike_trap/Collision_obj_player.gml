@@ -4,13 +4,21 @@ if (state == TRAP_STATE.INACTIVE) {
 }
 
 if ((state == TRAP_STATE.TRIGGERED) and (other.resource_carrying)) {
-	other.flash +=1
-	if (other.resource_carrying) {
-		var resource = other.resource
-		other.resource = noone
-		other.resource_carrying = false
+	hit_player_with_trap(other)
+}
+
+
+
+function hit_player_with_trap(player){
+	player.flash +=1
+	play_sfx_global(sfx_trap_hit)
+	if (player.resource_carrying) {
+		var resource = player.resource
+		player.resource = noone
+		player.resource_carrying = false
 		with (resource) {
 			instance_destroy()
 		}
 	}
+
 }

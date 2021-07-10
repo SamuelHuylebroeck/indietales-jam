@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 var resource = other
-
+var sfx_index = max(0,irandom(array_length(drop_off_sound_array)-1))
+var sfx = drop_off_sound_array[sfx_index]
+play_sfx_global(sfx)
 controlling_room.current_growth_progress += resource.dropoff_progress
 
 if (resource.dropoff_hindrance >=0){

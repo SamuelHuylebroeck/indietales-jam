@@ -20,4 +20,4 @@ v_speed = 0
 
 state = default_state
 collision_map = layer_tilemap_get_id(layer_get_id("Collision"))
- max_walk_speed = max_walk_speed_pps / game_get_speed(gamespeed_fps)
+max_walk_speed = max_walk_speed_pps / game_get_speed(gamespeed_fps)
