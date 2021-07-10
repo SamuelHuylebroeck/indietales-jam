@@ -11,5 +11,8 @@ function scr_init_global_config(){
 
 	global.sfx_priority = 1100;
 	global.sfx_gain_base = 1;
+	
+	global.room_max_height = 50
+	global.room_max_width = 50
 
 }
