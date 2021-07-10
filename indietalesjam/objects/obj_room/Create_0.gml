@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+growth_progress_threshold = 10
+current_growth_progress = 0
+
 var inner_radius = 3
 current_radius = inner_radius
 
@@ -16,4 +19,9 @@ for(var i = -global.room_max_height/2; i < global.room_max_height/2; i++){
 		
 		board[i+global.room_max_height/2, j+global.room_max_width/2] = inst;
 	}
+}
+
+dropoff_point = instance_create_layer(x, y, "Instances", obj_room_gather_point)
+with (dropoff_point) {
+	controlling_room = other
 }

@@ -8,6 +8,8 @@ state_map[PLAYER_STATE.FREE] = scr_player_state_free
 
 max_walk_speed_pps = 128
 
+resource_carrying = false
+
 
 //Internals
 h_speed = 0

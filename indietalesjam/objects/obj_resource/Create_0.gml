@@ -1,4 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_expand()
+state = RESOURCE_STATE.ON_FLOOR
+
+carrier = noone
+
+dropoff_progress = 5

@@ -11,3 +11,9 @@ enum PLAYER_STATE
 	
 
 }
+
+enum RESOURCE_STATE
+{
+	ON_FLOOR,
+	CARRIED
+}
