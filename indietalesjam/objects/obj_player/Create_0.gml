@@ -10,6 +10,8 @@ max_walk_speed_pps = 128
 
 resource_carrying = false
 
+hit_by_trap = false
+
 
 //Internals
 h_speed = 0
