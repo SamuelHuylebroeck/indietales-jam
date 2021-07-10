@@ -7,6 +7,7 @@ controlling_room.current_growth_progress += resource.dropoff_progress
 
 if (resource.carrier != noone) {
 	resource.carrier.resource_carrying = false
+	resource.carrier.resource = noone
 }
 
 with (resource) {

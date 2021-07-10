@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-event_inherited()
-
 //Retrieve player input 
 key_left_held = keyboard_check(vk_left) or keyboard_check(ord(global.left_key));
 key_right_held = keyboard_check(vk_right) or keyboard_check(ord(global.right_key));

@@ -6,3 +6,5 @@ state = RESOURCE_STATE.ON_FLOOR
 carrier = noone
 
 dropoff_progress = 5
+
+event_inherited()
