@@ -3,6 +3,10 @@
 function room_expand(){
 	var previous_radius = current_radius
 	current_radius = current_radius+1
+	
+	if (current_radius >= global.room_size_loss_threshold){
+		lose_game()
+	}
 	for(var i = -global.room_max_height/2; i < global.room_max_height/2; i++){
 		for(var j = -global.room_max_width/2; j < global.room_max_width/2; j ++){
 			if (i*i + j*j < current_radius*current_radius) and (i*i + j*j >= previous_radius*previous_radius) {
@@ -15,9 +19,15 @@ function room_expand(){
 	}
 }
 
-function room_shrink(){
+function room_shrink(shrink_amount){
 	var previous_radius = current_radius
-	current_radius = current_radius-1
+	current_radius = current_radius-shrink_amount
+	
+	if(current_radius <= 0){
+		win_game()
+	}
+	
+	
 	for(var i = -global.room_max_height/2; i < global.room_max_height/2; i++){
 		for(var j = -global.room_max_width/2; j < global.room_max_width/2; j ++){
 			if (i*i + j*j >= current_radius*current_radius) and (i*i + j*j < previous_radius*previous_radius) {

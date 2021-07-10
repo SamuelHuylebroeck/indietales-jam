@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e5677c3d-68fa-46b4-8d0e-41f9842933f4","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e5677c3d-68fa-46b4-8d0e-41f9842933f4","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},"LayerId":{"name":"f3bb34ad-06d1-4cee-9e33-1a2aac42b8e4","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_room_gather_point","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},"resourceVersion":"1.0","name":"e5677c3d-68fa-46b4-8d0e-41f9842933f4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"111169af-bcc2-46a8-8e6f-77b60df1f5cb","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"111169af-bcc2-46a8-8e6f-77b60df1f5cb","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},"LayerId":{"name":"e858d780-95c2-472f-ac75-76d06104a150","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_trigger_zone","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},"resourceVersion":"1.0","name":"111169af-bcc2-46a8-8e6f-77b60df1f5cb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_room_gather_point","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},
+    "spriteId": {"name":"spr_trigger_zone","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"def9f9b9-672a-4581-a6ef-47a174ff3f36","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e5677c3d-68fa-46b4-8d0e-41f9842933f4","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9059a0a7-d61d-49bd-979b-8e7d499dd1e8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"111169af-bcc2-46a8-8e6f-77b60df1f5cb","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_room_gather_point","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},
+    "parent": {"name":"spr_trigger_zone","path":"sprites/spr_trigger_zone/spr_trigger_zone.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_room_gather_point",
+    "name": "spr_trigger_zone",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f3bb34ad-06d1-4cee-9e33-1a2aac42b8e4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":44.0,"displayName":"default","resourceVersion":"1.0","name":"e858d780-95c2-472f-ac75-76d06104a150","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "room",
-    "path": "folders/Sprites/room.yy",
+    "name": "obstacles",
+    "path": "folders/Sprites/obstacles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_room_gather_point",
+  "name": "spr_trigger_zone",
   "tags": [],
   "resourceType": "GMSprite",
 }

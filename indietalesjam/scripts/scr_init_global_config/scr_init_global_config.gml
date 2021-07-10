@@ -14,5 +14,7 @@ function scr_init_global_config(){
 	
 	global.room_max_height = 50
 	global.room_max_width = 50
+	
+	global.room_size_loss_threshold=15
 
 }

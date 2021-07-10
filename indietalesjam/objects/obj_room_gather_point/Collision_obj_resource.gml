@@ -5,6 +5,12 @@ var resource = other
 
 controlling_room.current_growth_progress += resource.dropoff_progress
 
+if (resource.dropoff_hindrance >=0){
+	with (controlling_room){
+		room_shrink(resource.dropoff_hindrance)
+	}
+}
+
 if (resource.carrier != noone) {
 	resource.carrier.resource_carrying = false
 	resource.carrier.resource = noone
