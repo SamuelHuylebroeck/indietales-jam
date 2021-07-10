@@ -4,6 +4,7 @@ if (state == TRAP_STATE.INACTIVE) {
 }
 
 if ((state == TRAP_STATE.TRIGGERED) and (other.resource_carrying)) {
+	other.flash +=1
 	if (other.resource_carrying) {
 		var resource = other.resource
 		other.resource = noone
