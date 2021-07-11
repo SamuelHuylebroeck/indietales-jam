@@ -12,12 +12,13 @@ depth = 200
 image_speed = 1
 
 speed_boost_state = SPEED_BOOST_STATE.LOCKED
-speed_boost_duration = 3
-speed_boost_cooldown = 10
+speed_boost_duration = 4
+speed_boost_cooldown = 8
 
 blink_boost_state = BLINK_BOOST_STATE.LOCKED
 blink_on = false
-blink_boost_cooldown = 10
+blink_boost_cooldown = 5
+blink_max_distance = 100
 
 
 //Internals

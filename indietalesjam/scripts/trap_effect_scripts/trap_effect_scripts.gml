@@ -23,8 +23,8 @@ function apply_slowdown_debuff(player){
 		if (not slow_debuff_active) {
 			slow_debuff_active = true
 			flash +=0.5
-			slow_factor *= 0.5
-			max_walk_speed *= 0.5
+			slow_factor *= 0.33
+			max_walk_speed *= 0.33
 			alarm[5] = 3 * game_get_speed(gamespeed_fps)
 			
 			//Put abilities on cooldown
@@ -37,6 +37,8 @@ function apply_slowdown_debuff(player){
 				blink_boost_state = BLINK_BOOST_STATE.COOLDOWN
 				alarm[4] = blink_boost_cooldown * game_get_speed(gamespeed_fps)
 			}
+		}else{
+			alarm[5] = 3 * game_get_speed(gamespeed_fps)
 		}
 	}	
 }

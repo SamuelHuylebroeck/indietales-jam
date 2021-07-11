@@ -14,8 +14,8 @@ function scr_player_state_free(){
 	v_speed = lengthdir_y(input_magnitude * max_walk_speed, input_direction);
 	
 	if (blink_on) {
-		h_speed += lengthdir_x(max_walk_speed*50, direction);
-		v_speed += lengthdir_y(max_walk_speed*50, direction);
+		h_speed += lengthdir_x(blink_max_distance, direction);
+		v_speed += lengthdir_y(blink_max_distance, direction);
 		blink_on = false
 		
 		part_particles_create(global.particle_system, x, y+16, global.part_void, 10);
