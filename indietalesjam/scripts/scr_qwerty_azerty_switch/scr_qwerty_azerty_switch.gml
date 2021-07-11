@@ -6,6 +6,8 @@ function scr_qwerty_azerty_switch(){
 }
 
 function apply_keybinds(){
+	show_debug_message("Reapplying keybinds")
+	show_debug_message(string(global.azerty))
 	if(global.azerty){
 		global.left_key = "Q";
 		global.right_key="D";

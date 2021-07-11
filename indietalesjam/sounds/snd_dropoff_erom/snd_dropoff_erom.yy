@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_dropoff_ooh_yeah.wav",
-  "duration": 3.461871,
+  "soundFile": "snd_dropoff_erom.wav",
+  "duration": 1.88445592,
   "parent": {
     "name": "dropoff",
     "path": "folders/Sounds/sfx/dropoff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_dropoff_ooh_yeah",
+  "name": "snd_dropoff_erom",
   "tags": [],
   "resourceType": "GMSound",
 }

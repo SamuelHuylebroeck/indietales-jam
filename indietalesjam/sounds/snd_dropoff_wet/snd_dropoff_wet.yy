@@ -13,8 +13,8 @@
   "soundFile": "snd_dropoff_wet.wav",
   "duration": 3.308039,
   "parent": {
-    "name": "sfx",
-    "path": "folders/Sounds/sfx.yy",
+    "name": "dropoff",
+    "path": "folders/Sounds/sfx/dropoff.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_dropoff_wet",

@@ -1,2 +1,4 @@
 //Config
-drop_off_sound_array = [snd_dropoff_ooh_yeah, snd_dropoff_wet]
+drop_off_sound_array = [snd_dropoff_ooh_yeah, snd_dropoff_wet, snd_dropoff_erom,snd_dropoff_hi_mark,snd_dropoff_more,snd_dropoff_team_reverse,snd_dropoff_yes]
+drop_off_sound_array_hindrances = [snd_dropoff_hindrance_aarg, snd_dropoff_hindrance_great_job, snd_dropoff_hindrance_stop_that]
+global.first_hindrance_dropped_off = false

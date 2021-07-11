@@ -32,6 +32,7 @@
         {"properties":[
             {"propertyId":{"name":"resource_type","path":"objects/obj_resource_spawner/obj_resource_spawner.yy",},"objectId":{"name":"obj_resource_spawner","path":"objects/obj_resource_spawner/obj_resource_spawner.yy",},"value":"obj_resource_shrink_big","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_resource_spawner","path":"objects/obj_resource_spawner/obj_resource_spawner.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2784.0,"y":384.0,"resourceVersion":"1.0","name":"inst_1D1C4D2C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_608737E7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":48,"gridY":48,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Logic","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"ts_pathing","path":"tilesets/ts_pathing/ts_pathing.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":200,"SerialiseHeight":58,"TileSerialiseData":[
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -377,6 +378,7 @@
     {"name":"inst_567EB089","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_4F937710","path":"rooms/room_game/room_game.yy",},
     {"name":"inst_406B756D","path":"rooms/room_game/room_game.yy",},
+    {"name":"inst_608737E7","path":"rooms/room_game/room_game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

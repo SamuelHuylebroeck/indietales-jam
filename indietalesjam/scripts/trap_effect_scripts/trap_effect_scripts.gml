@@ -18,9 +18,10 @@ function destroy_carrying_resource(player){
 
 
 function apply_slowdown_debuff(player){
-	
+	var trap = self
 	with(player){
 		if (not slow_debuff_active) {
+			play_sfx_global(trap.sfx_trap_hit)
 			slow_debuff_active = true
 			flash +=0.5
 			slow_factor *= 0.33
@@ -38,6 +39,7 @@ function apply_slowdown_debuff(player){
 				alarm[4] = blink_boost_cooldown * game_get_speed(gamespeed_fps)
 			}
 		}else{
+			play_sfx_global(trap.sfx_trap_hit)
 			alarm[5] = 3 * game_get_speed(gamespeed_fps)
 		}
 	}	

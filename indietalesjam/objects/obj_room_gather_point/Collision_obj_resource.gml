@@ -2,8 +2,24 @@
 // You can write your code in this editor
 
 var resource = other
-var sfx_index = max(0,irandom(array_length(drop_off_sound_array)-1))
-var sfx = drop_off_sound_array[sfx_index]
+
+var sfx_index, sfx
+if (resource.dropoff_hindrance >0){
+	if(global.first_hindrance_dropped_off){
+		sfx_index = max(0,irandom(array_length(drop_off_sound_array_hindrances)-1))
+		sfx = drop_off_sound_array_hindrances[sfx_index]
+	
+	}else{
+		sfx = snd_dropoff_hindrance_first
+		global.first_hindrance_dropped_off = true
+	}
+
+}else{
+	sfx_index = max(0,irandom(array_length(drop_off_sound_array)-1))
+	sfx = drop_off_sound_array[sfx_index]
+
+}
+
 play_sfx_global(sfx)
 controlling_room.current_growth_progress += resource.dropoff_progress
 

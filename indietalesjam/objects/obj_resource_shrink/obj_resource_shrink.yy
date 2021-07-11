@@ -28,6 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"dropoff_progress","path":"objects/obj_resource/obj_resource.yy",},"objectId":{"name":"obj_resource","path":"objects/obj_resource/obj_resource.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"dropoff_hindrance","path":"objects/obj_resource/obj_resource.yy",},"objectId":{"name":"obj_resource","path":"objects/obj_resource/obj_resource.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"sfx_pickup","path":"objects/obj_resource/obj_resource.yy",},"objectId":{"name":"obj_resource","path":"objects/obj_resource/obj_resource.yy",},"value":"snd_boopboop","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "resources",

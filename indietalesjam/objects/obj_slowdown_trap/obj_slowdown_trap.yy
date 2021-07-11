@@ -31,6 +31,7 @@
     {"propertyId":{"name":"sprite_active_end_index","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"9","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"trap_player_effect_script","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"apply_slowdown_debuff","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"trap_trigger_delay","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"0.05","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"sfx_trap_hit","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"snd_slow_trap_hit","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "traps",
