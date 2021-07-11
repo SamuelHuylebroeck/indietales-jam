@@ -5,7 +5,7 @@ function lose_game(){
 	// Announce to player they have lost
 	show_debug_message("Game lost")
 	// Play sound effect
-	alarm[11] = 3 * game_get_speed(gamespeed_fps)
+	room_goto(room_game_end_lost)
 }
 
 
@@ -14,5 +14,5 @@ function win_game()
 	// Announce to player they have won
 	show_debug_message("Game won")
 	 // Play sound effect
-	alarm[11] = 3 * game_get_speed(gamespeed_fps)
+	room_goto(room_game_end_won)
 }
