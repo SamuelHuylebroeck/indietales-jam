@@ -17,7 +17,7 @@ speed_boost_cooldown = 10
 
 blink_boost_state = BLINK_BOOST_STATE.LOCKED
 blink_on = false
-blink_boost_cooldown = 1
+blink_boost_cooldown = 10
 
 
 //Internals
