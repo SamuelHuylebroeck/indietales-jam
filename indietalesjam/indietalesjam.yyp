@@ -64,6 +64,7 @@
     {"id":{"name":"spr_pc_idle_rtl","path":"sprites/spr_pc_idle_rtl/spr_pc_idle_rtl.yy",},"order":14,},
     {"id":{"name":"obj_resource_spawner","path":"objects/obj_resource_spawner/obj_resource_spawner.yy",},"order":2,},
     {"id":{"name":"snd_trap_hit","path":"sounds/snd_trap_hit/snd_trap_hit.yy",},"order":1,},
+    {"id":{"name":"room_gui_functions","path":"scripts/room_gui_functions/room_gui_functions.yy",},"order":1,},
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},"order":1,},
     {"id":{"name":"spr_room_chair","path":"sprites/spr_room_chair/spr_room_chair.yy",},"order":3,},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":0,},
