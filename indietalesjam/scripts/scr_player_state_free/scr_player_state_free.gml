@@ -17,6 +17,9 @@ function scr_player_state_free(){
 		h_speed += lengthdir_x(max_walk_speed*50, direction);
 		v_speed += lengthdir_y(max_walk_speed*50, direction);
 		blink_on = false
+		
+		part_particles_create(global.particle_system, x, y+16, global.part_void, 10);
+		part_particles_create(global.particle_system, x+h_speed, y+16+v_speed, global.part_void, 10);
 	}
 	
 	scr_player_collision();

@@ -11,7 +11,7 @@ function scr_player_collision(){
 		h_speed = 0
 	}
 	//Horizontal Move Commit
-	if (x+h_speed > 0) and (x+h_speed < room_height) {
+	if (x+h_speed > 0) and (x+h_speed < room_width) {
 		x += h_speed
 	}
 	
@@ -25,7 +25,7 @@ function scr_player_collision(){
 	}
 	
 	//Vertical Move Commit
-	if (y+v_speed > 0) and (y+v_speed < room_width) {
+	if (y+v_speed > 0) and (y+v_speed < room_height) {
 		y+=v_speed
 	}
 	
