@@ -2,8 +2,9 @@
 
 speed_boost_state = SPEED_BOOST_STATE.COOLDOWN
 
-max_walk_speed_pps /= 2
-max_walk_speed = max_walk_speed_pps / game_get_speed(gamespeed_fps)
+max_walk_speed /=2
+
+show_debug_message(string(max_walk_speed))
 
 image_speed /= 2
 

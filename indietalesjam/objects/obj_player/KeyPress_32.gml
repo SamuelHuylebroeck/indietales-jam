@@ -3,8 +3,7 @@
 if (speed_boost_state == SPEED_BOOST_STATE.AVAILABLE) {
 	speed_boost_state = SPEED_BOOST_STATE.ACTIVE
 	
-	max_walk_speed_pps *= 2
-	max_walk_speed = max_walk_speed_pps / game_get_speed(gamespeed_fps)
+	max_walk_speed *=2 
 
 	image_speed *= 2
 

@@ -26,10 +26,17 @@ function apply_slowdown_debuff(player){
 			slow_factor *= 0.5
 			max_walk_speed *= 0.5
 			alarm[5] = 3 * game_get_speed(gamespeed_fps)
-		
+			
+			//Put abilities on cooldown
+			if (speed_boost_state != SPEED_BOOST_STATE.LOCKED and speed_boost_state != SPEED_BOOST_STATE.ACTIVE){
+				speed_boost_state = SPEED_BOOST_STATE.COOLDOWN
+				alarm[2] = speed_boost_cooldown * game_get_speed(gamespeed_fps)
+			}
+			
+			if( blink_boost_state != BLINK_BOOST_STATE.LOCKED){
+				blink_boost_state = BLINK_BOOST_STATE.COOLDOWN
+				alarm[4] = blink_boost_cooldown * game_get_speed(gamespeed_fps)
+			}
 		}
-		
-	
-	}
-	
+	}	
 }
