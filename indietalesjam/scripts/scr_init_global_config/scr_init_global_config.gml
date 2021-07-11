@@ -21,6 +21,4 @@ function scr_init_global_config(){
 	part_system_depth(global.particle_system, 100);
 	
 	init_particle_system()
-	
-
 }

@@ -9,8 +9,6 @@ enum PLAYER_STATE
 	INTERACT,
 	HURT,
 	DIE
-	
-
 }
 
 enum RESOURCE_STATE
@@ -27,9 +25,15 @@ enum TRAP_STATE
 	COOLDOWN
 }
 
-
 #macro PARTICLE_VOID_BRIGHT make_color_rgb(156,70,116)
 #macro PARTICLE_VOID_DARK make_color_rgb(88,20,89)
 
 #macro PARTICLE_GREEN_BRIGHT make_color_rgb(95,199,93)
 #macro PARTICLE_GREEN_DARK make_color_rgb(32,54,113)
+
+enum SPEED_BOOST_STATE
+{
+	AVAILABLE,
+	ACTIVE,
+	COOLDOWN
+}

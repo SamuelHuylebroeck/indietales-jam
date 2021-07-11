@@ -9,6 +9,11 @@ state_map[PLAYER_STATE.FREE] = scr_player_state_free
 max_walk_speed_pps = 128
 
 depth = 200
+image_speed = 1
+
+speed_boost_state = SPEED_BOOST_STATE.AVAILABLE
+speed_boost_duration = 3
+speed_boost_cooldown = 10
 
 
 //Internals
