@@ -17,6 +17,7 @@ function hit_player_with_trap(player){
 		player.resource = noone
 		player.resource_carrying = false
 		with (resource) {
+			part_particles_create(global.particle_system, x,y,global.part_white,3);
 			instance_destroy()
 		}
 	}

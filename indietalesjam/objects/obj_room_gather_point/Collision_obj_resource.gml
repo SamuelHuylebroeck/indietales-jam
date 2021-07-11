@@ -19,5 +19,7 @@ if (resource.carrier != noone) {
 }
 
 with (resource) {
+	
+	part_particles_create(global.particle_system, x,y,global.part_void,5);
 	instance_destroy()
 }

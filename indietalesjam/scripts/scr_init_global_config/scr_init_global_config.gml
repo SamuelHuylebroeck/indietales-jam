@@ -15,6 +15,12 @@ function scr_init_global_config(){
 	global.room_max_height = 50
 	global.room_max_width = 50
 	
-	global.room_size_loss_threshold = 4
+	global.room_size_loss_threshold = 25
+	
+	global.particle_system = part_system_create();
+	part_system_depth(global.particle_system, 100);
+	
+	init_particle_system()
+	
 
 }
