@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pc_idle",
-    "path": "sprites/spr_pc_idle/spr_pc_idle.yy",
+    "name": "spr_pc_idle_ttb",
+    "path": "sprites/spr_pc_idle_ttb/spr_pc_idle_ttb.yy",
   },
   "solid": false,
   "visible": true,
