@@ -18,9 +18,9 @@ function scr_init_global_config(){
 	global.room_size_loss_threshold = 25
 	
 	global.speed_unlocked = false
-	global.speed_unlocked_threshold_radius = 3
+	global.speed_unlocked_threshold_radius = 10
 	global.blink_unlocked = false
-	global.blink_unlocked_threshold_radius = 3
+	global.blink_unlocked_threshold_radius = 20
 	
 	global.particle_system = part_system_create();
 	part_system_depth(global.particle_system, 100);

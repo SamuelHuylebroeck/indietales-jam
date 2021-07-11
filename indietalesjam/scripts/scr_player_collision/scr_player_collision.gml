@@ -11,7 +11,9 @@ function scr_player_collision(){
 		h_speed = 0
 	}
 	//Horizontal Move Commit
-	x+=h_speed
+	if (x+h_speed > 0) and (x+h_speed < room_height) {
+		x += h_speed
+	}
 	
 	//Vertical Tiles
     if(tilemap_get_at_pixel(collision_map, x, y+v_speed))
@@ -22,8 +24,11 @@ function scr_player_collision(){
 		v_speed = 0
 	}
 	
-		//Vertical Move Commit
-	y+=v_speed
+	//Vertical Move Commit
+	if (y+v_speed > 0) and (y+v_speed < room_width) {
+		y+=v_speed
+	}
+	
 	return colliding
 	
 
