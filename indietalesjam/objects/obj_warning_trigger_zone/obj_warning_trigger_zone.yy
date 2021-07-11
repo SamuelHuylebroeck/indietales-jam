@@ -4,7 +4,7 @@
     "path": "sprites/spr_trigger_zone/spr_trigger_zone.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

@@ -25,6 +25,7 @@
   ],
   "properties": [
     {"varType":2,"value":"You must stop it from growing, take this!","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"announcement_txt","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"-1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"announcement_sfx","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {

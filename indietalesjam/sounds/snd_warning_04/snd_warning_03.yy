@@ -1,6 +1,6 @@
 {
-  "compression": 2,
-  "volume": 0.67,
+  "compression": 0,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_pickup_wood.wav",
-  "duration": 0.120011,
+  "soundFile": "snd_warning_03",
+  "duration": 0.0,
   "parent": {
-    "name": "sfx",
-    "path": "folders/Sounds/sfx.yy",
+    "name": "warnings",
+    "path": "folders/Sounds/dialogue/warnings.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_pickup_wood",
+  "name": "snd_warning_03",
   "tags": [],
   "resourceType": "GMSound",
 }

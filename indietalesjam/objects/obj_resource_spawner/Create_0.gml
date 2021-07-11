@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spawn_radius = 100
 max_resources = 5
 spawn_interval = 5
 
