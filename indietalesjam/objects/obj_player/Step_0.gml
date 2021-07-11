@@ -16,10 +16,10 @@ if(!global.game_paused)
 	if(state_map[state] != -1) script_execute(state_map[state])
 }
 
-if (global.speed_unlocked) {
+if (global.speed_unlocked) and (speed_boost_state == SPEED_BOOST_STATE.LOCKED) {
 	speed_boost_state = SPEED_BOOST_STATE.AVAILABLE
 }
 
-if (global.blink_unlocked) {
+if (global.blink_unlocked) and (blink_boost_state == BLINK_BOOST_STATE.LOCKED) {
 	blink_boost_state = BLINK_BOOST_STATE.AVAILABLE
 }
