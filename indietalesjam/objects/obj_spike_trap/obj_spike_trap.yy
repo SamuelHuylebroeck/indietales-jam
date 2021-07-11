@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "p_entity",
-    "path": "objects/p_entity/p_entity.yy",
+    "name": "p_trap",
+    "path": "objects/p_trap/p_trap.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,17 +28,15 @@
     {"x":32.0,"y":32.0,},
     {"x":0.0,"y":32.0,},
   ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"sprite_active_start_index","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"sprite_active_end_index","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"trap_trigger_delay","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"trap_active_duration","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"trap_player_effect_script","path":"objects/p_trap/p_trap.yy",},"objectId":{"name":"p_trap","path":"objects/p_trap/p_trap.yy",},"value":"destroy_carrying_resource","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
-  "properties": [
-    {"varType":5,"value":"snd_trap_hit","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"sfx_trap_hit","tags":[],"resourceType":"GMObjectProperty",},
-  ],
-  "overriddenProperties": [],
   "parent": {
     "name": "traps",
     "path": "folders/Objects/traps.yy",
