@@ -15,5 +15,11 @@ function scr_player_state_free(){
 	
 	
 	scr_player_collision();
+	
+	if(speed_boost_state == SPEED_BOOST_STATE.ACTIVE){
+		part_particles_create(global.particle_system, x-5,y+16,global.part_sprint,1);
+		part_particles_create(global.particle_system, x+5,y+16,global.part_sprint,1);
+	
+	}
 
 }

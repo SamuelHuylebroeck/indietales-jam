@@ -17,6 +17,7 @@ function room_expand(){
 			}			
 		}
 	}
+	room_create_furniture()
 }
 
 function room_shrink(shrink_amount){
@@ -38,4 +39,26 @@ function room_shrink(shrink_amount){
 			}			
 		}
 	}	
+}
+
+
+function room_create_furniture(){
+	var amount_to_create = floor(current_radius/10)+1
+	show_debug_message(string(amount_to_create))
+	
+	for(var i=0;i<amount_to_create;i++){
+		var jitter_x=irandom_range(-10,10)
+		var jitter_y=irandom_range(-10,10)
+		
+		var alpha = random_range(0,360)
+		var len = (current_radius-1) * 16 //tilesize
+		
+		var spawn_x = lengthdir_x(len, alpha)
+		var spawn_y =lengthdir_y(len, alpha)
+		
+		var inst = instance_create_layer(x+spawn_x+jitter_x, y+ spawn_y+jitter_y,"Instances", obj_furniture)
+		
+	}
+
+
 }
