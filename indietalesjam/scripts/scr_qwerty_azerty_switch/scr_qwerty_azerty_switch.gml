@@ -19,10 +19,4 @@ function apply_keybinds(){
 		global.up_key = "W";
 		global.down_key = "S";
 	}
-	global.pause_key = "P";
-	global.attack_key = "K";
-	global.shoot_key = "L";
-	global.skill_allocation_key = "H"
-	global.activate_key = "F";
-	global.keyboard_switch_key = "O";
 }
