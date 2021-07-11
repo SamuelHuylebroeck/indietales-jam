@@ -30,6 +30,7 @@
     {"id":{"name":"spr_room_gather_point","path":"sprites/spr_room_gather_point/spr_room_gather_point.yy",},"order":0,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":10,},
     {"id":{"name":"font_placeholder_regular","path":"fonts/font_placeholder_regular/font_placeholder_regular.yy",},"order":0,},
+    {"id":{"name":"obj_warning_trigger_zone","path":"objects/obj_warning_trigger_zone/obj_warning_trigger_zone.yy",},"order":11,},
     {"id":{"name":"obj_furniture","path":"objects/obj_furniture/obj_furniture.yy",},"order":1,},
     {"id":{"name":"spr_pc_move_side_rtl","path":"sprites/spr_pc_move_side_rtl/spr_pc_move_side_rtl.yy",},"order":6,},
     {"id":{"name":"spr_pc_idle_btt","path":"sprites/spr_pc_idle_btt/spr_pc_idle_btt.yy",},"order":8,},
