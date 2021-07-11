@@ -47,7 +47,7 @@
     "spriteId": {"name":"spr_pc_move_ttb","path":"sprites/spr_pc_move_ttb/spr_pc_move_ttb.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

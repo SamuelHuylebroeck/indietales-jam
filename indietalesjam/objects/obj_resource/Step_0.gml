@@ -3,5 +3,5 @@
 
 if state == RESOURCE_STATE.CARRIED {
 	x = carrier.x
-	y = carrier.y - 10
+	y = carrier.y - 20
 }

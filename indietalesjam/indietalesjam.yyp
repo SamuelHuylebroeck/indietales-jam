@@ -55,6 +55,7 @@
     {"id":{"name":"scr_player_collision","path":"scripts/scr_player_collision/scr_player_collision.yy",},"order":1,},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":0,},
     {"id":{"name":"snd_dropoff_wet","path":"sounds/snd_dropoff_wet/snd_dropoff_wet.yy",},"order":2,},
+    {"id":{"name":"player_animations","path":"scripts/player_animations/player_animations.yy",},"order":2,},
     {"id":{"name":"room_size_functions","path":"scripts/room_size_functions/room_size_functions.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
