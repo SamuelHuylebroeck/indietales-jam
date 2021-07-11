@@ -79,9 +79,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
     {"roomId":{"name":"room_game_end_lost","path":"rooms/room_game_end_lost/room_game_end_lost.yy",},},
     {"roomId":{"name":"room_game_end_won","path":"rooms/room_game_end_won/room_game_end_won.yy",},},
-    {"roomId":{"name":"room_game","path":"rooms/room_game/room_game.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
