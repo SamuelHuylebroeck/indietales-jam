@@ -4,6 +4,14 @@ function room_expand(){
 	var previous_radius = current_radius
 	current_radius = current_radius+1
 	
+	if (current_radius >= global.speed_unlocked_threshold_radius){
+		global.speed_unlocked = true
+	}
+	
+	if (current_radius >= global.blink_unlocked_threshold_radius){
+		global.blink_unlocked = true
+	}
+	
 	if (current_radius >= global.room_size_loss_threshold){
 		lose_game()
 	}

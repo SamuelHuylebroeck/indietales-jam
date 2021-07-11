@@ -13,6 +13,11 @@ function scr_player_state_free(){
 	h_speed = lengthdir_x(input_magnitude * max_walk_speed, input_direction);
 	v_speed = lengthdir_y(input_magnitude * max_walk_speed, input_direction);
 	
+	if (blink_on) {
+		h_speed += lengthdir_x(max_walk_speed*50, direction);
+		v_speed += lengthdir_y(max_walk_speed*50, direction);
+		blink_on = false
+	}
 	
 	scr_player_collision();
 	

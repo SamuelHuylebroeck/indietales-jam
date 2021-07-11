@@ -11,9 +11,13 @@ max_walk_speed_pps = 128
 depth = 200
 image_speed = 1
 
-speed_boost_state = SPEED_BOOST_STATE.AVAILABLE
+speed_boost_state = SPEED_BOOST_STATE.LOCKED
 speed_boost_duration = 3
 speed_boost_cooldown = 10
+
+blink_boost_state = BLINK_BOOST_STATE.LOCKED
+blink_on = false
+blink_boost_cooldown = 1
 
 
 //Internals
