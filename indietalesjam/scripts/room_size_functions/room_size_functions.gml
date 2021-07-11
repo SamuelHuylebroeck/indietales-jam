@@ -44,7 +44,6 @@ function room_shrink(shrink_amount){
 
 function room_create_furniture(){
 	var amount_to_create = floor(current_radius/10)+1
-	show_debug_message(string(amount_to_create))
 	
 	for(var i=0;i<amount_to_create;i++){
 		var jitter_x=irandom_range(-10,10)

@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_trap_hit.wav",
+  "soundFile": "snd_spike_trap_hit.wav",
   "duration": 1.521417,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_trap_hit",
+  "name": "snd_spike_trap_hit",
   "tags": [],
   "resourceType": "GMSound",
 }

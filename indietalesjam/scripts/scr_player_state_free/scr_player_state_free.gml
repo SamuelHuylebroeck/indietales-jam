@@ -21,5 +21,9 @@ function scr_player_state_free(){
 		part_particles_create(global.particle_system, x+5,y+16,global.part_sprint,1);
 	
 	}
+	
+	if(slow_debuff_active){
+		part_particles_create(global.particle_system, x, y+10, global.part_void, 2)
+	}
 
 }
